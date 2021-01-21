@@ -1,3 +1,5 @@
+#![allow(dead_code)]
+#![allow(unused_attributes)]
 //mod core_types;
 //mod operators;
 //mod scope_and_shadowing;
@@ -5,10 +7,10 @@
 //mod sh;
 mod control_flows;
 fn main() {
-    //core_types::run();
-    //operators::run();
-    //scope_and_shadowing::run();
-    //constant_vars::run();
-    //sh::run();
-    control_flows::run();
+  //core_types::run();
+  //operators::run();
+  //scope_and_shadowing::run();
+  //constant_vars::run();
+  //sh::run();
+  control_flows::run();
 }
