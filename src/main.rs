@@ -1,5 +1,7 @@
 #![allow(dead_code)]
 #![allow(unused_attributes)]
+#![allow(overlapping_patterns)]
+#![allow(ellipsis_inclusive_range_patterns)]
 //mod core_types;
 //mod operators;
 //mod scope_and_shadowing;

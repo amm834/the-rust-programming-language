@@ -1,7 +1,8 @@
 pub fn run() {
   //if_statement();
   //while_loop();
-  for_loop();
+  //for_loop();
+  match_statement();
 }
 
 fn if_statement() {
@@ -61,4 +62,17 @@ fn for_loop() {
   for (ind, val) in (40..51).enumerate() {
     println!("{} => {}", ind, val);
   }
+}
+
+fn match_statement(){
+  let country_code = 200;
+  let country = match country_code {
+    7 => "Russia",
+    95 => "Myanmar",
+    44 => "UK",
+    1 => "US",
+    1..=200 => "Unknow", //1..=200 inclusive 200,also 1...200
+    _ => "Invalid Code"
+  };
+  println!("Country with {} is {}.",country_code,country);
 }
