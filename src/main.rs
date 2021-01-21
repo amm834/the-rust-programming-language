@@ -7,12 +7,18 @@
 //mod scope_and_shadowing;
 //mod constant_vars;
 //mod sh;
-mod control_flows;
+//mod control_flows;
+//mod array;
+mod vector;
 fn main() {
   //core_types::run();
   //operators::run();
   //scope_and_shadowing::run();
   //constant_vars::run();
   //sh::run();
-  control_flows::run();
+  //control_flows::run();
+  
+  /* Data Structures */
+  //array::run();
+  vector::run();
 }
