@@ -9,7 +9,8 @@
 //mod sh;
 //mod control_flows;
 //mod array;
-mod vector;
+//mod vector;
+mod structs;
 fn main() {
   //core_types::run();
   //operators::run();
@@ -20,5 +21,6 @@ fn main() {
   
   /* Data Structures */
   //array::run();
-  vector::run();
+  //vector::run();
+  structs::run();
 }
