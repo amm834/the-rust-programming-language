@@ -1,8 +1,10 @@
 //mod core_types;
 //mod operators;
-mod scope_and_shadowing;
+//mod scope_and_shadowing;
+mod constant_vars;
 fn main() {
   //core_types::run();
   //operators::run();
-  scope_and_shadowing::run();
+  //scope_and_shadowing::run();
+  constant_vars::run();
 }
