@@ -1,24 +1,42 @@
+`#[allow(dead_code)]`
 pub fn run() {
-    if_statement();
+  //if_statement();
+  while_loop();
 }
 
 fn if_statement() {
-    let temp = 29;
-    // expand style
-    if temp < 10 {
-        println!("Today is cool.");
-    } else if temp > 30 {
-        println!("Today is host")
-    } else {
-        println!("Today is OK.");
-    }
-    // inline style
-    let today = if temp < 10 {
-        "Cool"
-    } else if temp > 30 {
-        "Sunny"
-    } else {
-        "Ok"
-    };
-    println!("Today is {}", oday);
+  let temp = 29;
+  // expand style
+  if temp < 10 {
+    println!("Today is cool.");
+  } else if temp > 30 {
+    println!("Today is host")
+  } else {
+    println!("Today is OK.");
+  }
+  // inline style
+  let today = if temp < 10 {
+    "Cool"
+  } else if temp > 30 {
+    "Sunny"
+  } else {
+    "Ok"
+  };
+  println!("Today is {}", today);
+}
+
+fn while_loop() {
+  let mut x = 2;
+  while x < 1000 {
+    x *= 2;
+    if x == 64 { continue; }
+    println!("x = {}", x);
+  }
+  println!("\n<------ Loop -------->\n");
+  let mut y = 1;
+  loop {
+    y *= 2;
+    if y == 1 << 10 {break;}
+    println!("y = {}",y);
+  }
 }
