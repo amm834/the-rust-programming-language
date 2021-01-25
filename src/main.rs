@@ -11,7 +11,7 @@
 //mod array;
 //mod vector;
 //mod structs;
-mod user_input;
+mod enums;
 fn main() {
   //core_types::run();
   //operators::run();
@@ -24,7 +24,5 @@ fn main() {
   //array::run();
   //vector::run();
   //structs::run();
-  
-  /* Projects */
-  user_input::run();
+  enums::run();
 }
