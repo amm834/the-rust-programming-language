@@ -14,7 +14,8 @@
 //mod structs;
 //mod enums;
 //mod union;
-mod tuples;
+//mod tuples;
+mod slices;
 fn main() {
   //core_types::run();
   //operators::run();
@@ -24,10 +25,12 @@ fn main() {
   //control_flows::run();
 
   /* Data Structures */
+  
   //array::run();
   //vector::run();
   //structs::run();
   // enums::run();
   //union::run();
-  tuples::run();
+  //tuples::run();
+  slices::run();
 }
