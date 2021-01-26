@@ -15,7 +15,8 @@
 //mod enums;
 //mod union;
 //mod tuples;
-mod slices;
+//mod slices;
+mod generic;
 fn main() {
   //core_types::run();
   //operators::run();
@@ -32,5 +33,6 @@ fn main() {
   // enums::run();
   //union::run();
   //tuples::run();
-  slices::run();
+  //slices::run();
+  generic::run();
 }
