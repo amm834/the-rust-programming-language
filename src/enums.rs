@@ -7,7 +7,6 @@ enum Color {
 }
 
 pub fn run() {
-
   let c: Color = Color::CYMK{c:12,y:20,m:28,k:255};
   match c {
     Color::RED => println!("r"),

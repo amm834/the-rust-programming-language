@@ -11,7 +11,8 @@
 //mod array;
 //mod vector;
 //mod structs;
-mod enums;
+//mod enums;
+mod union;
 fn main() {
   //core_types::run();
   //operators::run();
@@ -19,10 +20,11 @@ fn main() {
   //constant_vars::run();
   //sh::run();
   //control_flows::run();
-  
+
   /* Data Structures */
   //array::run();
   //vector::run();
   //structs::run();
-  enums::run();
+  // enums::run();
+  union::run();
 }
