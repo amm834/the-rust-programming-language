@@ -2,6 +2,7 @@
 #![allow(unused_attributes)]
 #![allow(overlapping_patterns)]
 #![allow(ellipsis_inclusive_range_patterns)]
+#![allow(unused_variables)]
 //mod core_types;
 //mod operators;
 //mod scope_and_shadowing;
@@ -12,7 +13,8 @@
 //mod vector;
 //mod structs;
 //mod enums;
-mod union;
+//mod union;
+mod tuples;
 fn main() {
   //core_types::run();
   //operators::run();
@@ -26,5 +28,6 @@ fn main() {
   //vector::run();
   //structs::run();
   // enums::run();
-  union::run();
+  //union::run();
+  tuples::run();
 }
