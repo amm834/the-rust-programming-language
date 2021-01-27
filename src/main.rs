@@ -16,7 +16,8 @@
 //mod union;
 //mod tuples;
 //mod slices;
-mod generic;
+//mod generic;
+mod function;
 fn main() {
   //core_types::run();
   //operators::run();
@@ -34,5 +35,6 @@ fn main() {
   //union::run();
   //tuples::run();
   //slices::run();
-  generic::run();
+  //generic::run();
+  function::run();
 }
